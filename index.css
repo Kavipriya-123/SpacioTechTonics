@@ -1,0 +1,300 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.logo-heading-cont{
+    display: flex;
+    width: 100px;
+    font-family: "Roboto";
+}
+.header-logo{
+    width:100px;
+    height:100px;
+    margin-right: 15px;
+}
+
+.header-items-cont{
+    width:40%;
+    display: flex;
+    justify-content: space-between;
+}
+.bg{
+    background-image:url("./assets/image1.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-heading{
+    font-size:20px;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding:60px;
+  }
+
+  .background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(247, 245, 245, 0.3); /* Semi-transparent white */
+    z-index: 1; /* Ensures the overlay is on top */
+  }
+  .content {
+    position: relative;
+    z-index: 2; /* Keeps the content above the overlay */
+    color: black;
+    font-size: 24px;
+    padding: 20px;
+    width:60%;
+  }
+
+  .main-para{
+    font-size:34px;
+  }
+  .facades{
+    font-weight: bold;
+  }
+  .para-style{
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .appointment-btn{
+    background-color:blue;
+    color:white;
+    width:fit-content;
+    height: fit-content;
+    padding:10px;
+    border-radius:17px;
+    border-width:0px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  footer{
+    z-index: 2; /* Keeps the content above the overlay */
+    color: black;
+    position: relative;
+    text-align: center;
+    margin-bottom:auto;
+    font-weight: bold;
+  }
+
+.content1 {
+    flex: 1; /* Pushes the footer to the bottom */
+}
+
+
+
+
+/*second page*/
+.second-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.whyus-cont{
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+}
+.whyus-cont1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    height: 90%;
+}
+.whyus-cont2{
+height: 90%;
+}
+.second-page-para{
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    padding:7px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: fit-content;
+}
+.footer-para{
+    text-align:center;
+}
+/*thirdpage*/
+.third-page{
+    background-image:url("./assets/Spacio\ TechTonics\ Consultancy\ V21.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    padding:40px;
+}
+.third-page-item-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+}
+.third-page-btn{
+    background-color: transparent;
+    border-width: 0px;
+    color:white;
+    font-size:40px;
+    font-weight: bold;
+}
+/*fourt-page*/
+.fourth-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px;
+}
+.fourth-page-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.fourth-page-card-cont{
+    display: flex;
+    padding:10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top:20%;
+}
+.card{
+    margin-right:20px;
+}
+.card-para{
+    display:flex;
+}
+
+/*fifth-page*/
+
+.fifth-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:30px;
+    height: 100vh;
+}
+
+.fifth-page-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-image{
+    height:600px;
+    width:100%;
+}
+/*sixth-page*/
+
+.sixth-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:30px;
+    height: 100vh;
+}
+
+.six-card-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.six-card{
+    width:300px;
+    margin-right:20px;
+}
+.six-card-image{
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius:10px;
+    width:300px;
+    height: 300px;
+    margin-bottom:20px;
+    padding:20px;
+}
+
+.six-card-para{
+    display: flex;
+    justify-content: flex-end;
+}
+.in{
+    border:4px solid black;
+    padding:15px;
+    width:fit-content;
+    font-weight: bold;
+    font-size:50px;
+}
+/*seventh-page*/
+.seventh-page{
+    background-image:url("./assets/Spacio\ TechTonics\ Consultancy\ V21.png");
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color:white;
+}
+
+.seventh-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.seventh-header-item{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.seventh-body-cont{
+    padding:40px;
+}
+
+.seventh-bottom-cont{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:10%;
+}
+.form-btn{
+color:black;
+border-radius:15px;
+border-width:0px;
+width:fit-content;
+font-size:17px;
+height: fit-content;
+padding:5px;
+cursor: pointer;
+}
+.form-input{
+    background-color: transparent;
+    padding: 5px;
+    color:white;
+    border-radius: 10px;
+    border-color:white;
+}
+.social-media-cont{
+    height: 100%;
+align-self: flex-end;
+}
+/* last*/
+.contact-cont{
+    background-color:black;
+    color:white;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+}
